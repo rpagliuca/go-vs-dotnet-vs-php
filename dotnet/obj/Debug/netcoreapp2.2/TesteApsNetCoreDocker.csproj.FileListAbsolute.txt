@@ -1,0 +1,14 @@
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\bin\Debug\netcoreapp2.2\TesteApsNetCoreDocker.deps.json
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\bin\Debug\netcoreapp2.2\TesteApsNetCoreDocker.runtimeconfig.json
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\bin\Debug\netcoreapp2.2\TesteApsNetCoreDocker.runtimeconfig.dev.json
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\bin\Debug\netcoreapp2.2\TesteApsNetCoreDocker.dll
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\bin\Debug\netcoreapp2.2\TesteApsNetCoreDocker.pdb
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.csprojAssemblyReference.cache
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.csproj.CoreCompileInputs.cache
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.RazorAssemblyInfo.cache
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.RazorAssemblyInfo.cs
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.AssemblyInfoInputs.cache
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.AssemblyInfo.cs
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.RazorTargetAssemblyInfo.cache
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.dll
+C:\Users\Marcio\Source\Repos\TesteApsNetCoreDocker\TesteApsNetCoreDocker\obj\Debug\netcoreapp2.2\TesteApsNetCoreDocker.pdb

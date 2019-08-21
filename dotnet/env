@@ -1,0 +1,5 @@
+MYSQL_ROOT_PASSWORD=root
+DB_HOST=db
+DB_USER=marcio
+DB_PASSWORD=root
+DB_NAME=my_db_name

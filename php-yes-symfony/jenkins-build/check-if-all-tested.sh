@@ -1,0 +1,33 @@
+#!/bin/sh
+ 
+LINES_COVERED=$(cat < "$1" | head -n 10 | grep Lines | awk  '{print $2 }' | tr -d '%')
+LINES_NOT_TESTEDS_ALLOWED=96
+LINES_COVERED=$(cat < "$1" | head -n 10 | grep Lines | awk  '{print $3 }' | tr -d '\(\)'| awk -F"/" '{print $1 }')
+TOTAL_LINES=$(cat < "$1" | head -n 10 | grep Lines | awk  '{print $3 }' | tr -d '\(\)'| awk -F"/" '{print $2 }')
+LINES_NOT_TESTEDS=$(($TOTAL_LINES-$LINES_COVERED))
+
+if [ "$LINES_COVERED" = "$TOTAL_LINES" ] ;then
+    echo "PASSED - FULLY tested"
+    exit 0
+fi
+#
+
+if [ "$LINES_NOT_TESTEDS" -le "$LINES_NOT_TESTEDS_ALLOWED" ] ;then
+    echo "PASSED - not fully tested."
+    echo
+    echo "Lines covered by tests:       $LINES_COVERED"
+    echo "Total of lines:               $TOTAL_LINES"
+    echo "Lines not tested:             $LINES_NOT_TESTEDS"
+    echo "Maximum not tested lines:     $LINES_NOT_TESTEDS_ALLOWED"
+    exit 0;
+fi
+
+echo "FAILED"
+echo
+echo "Lines covered by tests:       $LINES_COVERED"
+echo "Total of lines:               $TOTAL_LINES"
+echo "Lines not tested:             $LINES_NOT_TESTEDS"
+echo "Maximum not tested lines:     $LINES_NOT_TESTEDS_ALLOWED"
+echo
+echo "Run tests with phpunit-coverage for more details."
+exit 1

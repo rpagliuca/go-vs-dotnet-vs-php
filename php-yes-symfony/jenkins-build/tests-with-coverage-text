@@ -1,0 +1,2 @@
+#!/bin/sh
+tests --whitelist src --coverage-text=build/coverage-test-text "$@"

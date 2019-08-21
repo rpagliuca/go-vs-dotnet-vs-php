@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Marcio\\Source\\Repos\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Marcio\\Source\\Repos\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marcio\\Source\\Repos\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker.csproj",
+        "projectName": "TesteApsNetCoreDocker",
+        "projectPath": "C:\\Users\\Marcio\\Source\\Repos\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker.csproj",
+        "packagesPath": "C:\\Users\\Marcio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcio\\Source\\Repos\\TesteApsNetCoreDocker\\TesteApsNetCoreDocker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marcio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
