@@ -1,0 +1,10 @@
+version: "3"
+services:
+    app:
+      container_name: phalcon-server
+      build: .
+      ports:
+        - "80:80"
+      volumes:
+        - ./phpconfig:/usr/local/etc/php
+        - ./app:/var/www/html
