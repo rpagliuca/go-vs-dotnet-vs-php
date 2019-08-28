@@ -6,5 +6,6 @@ services:
       ports:
         - "80:80"
       volumes:
-        - ./phpconfig:/usr/local/etc/php
+        - ./phpconfig/php.ini:/usr/local/etc/php/php.ini
+        - ./phpconfig/vhost.conf:/etc/apache2/sites-enabled/000-default.conf
         - ./app:/var/www/html
